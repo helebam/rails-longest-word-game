@@ -1,0 +1,16 @@
+
+<div class="p-5">
+<h1>New Game! 🚀</h1>
+<h2>Here is your grid:</h2>
+    <% @letters.each do |letter| %>
+        <button class="button-58" role="button"><%= letter.capitalize %></button>
+    <% end %>
+<p>What is the longest word you can find?</p>
+<form action="/score" method="POST" data-turbo="false">
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+<div class="input-group w-50">
+  <input type="text" name="word" class="form-control rounded">
+  <input type="submit" value="Play" class="btn btn-primary">
+   </div>
+</form>
+</div>

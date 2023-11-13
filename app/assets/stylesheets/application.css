@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+/* CSS */
+.button-58 {
+  align-items: center;
+  background-color: pink;
+  border: 2px solid orangered;
+  color: orangered;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 50px;
+  padding: 5px 0;
+
+}
+p {
+  padding: 10px 0;
+}
+h1, h2 {
+  min-width: 50px;
+  padding: 5px 0;
+}
